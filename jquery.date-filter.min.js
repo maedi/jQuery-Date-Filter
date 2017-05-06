@@ -1,0 +1,2 @@
+// Date Filter V1 by Maedi Prichard - http://maedi.com/code/date-filter
+!function(a){a.fn.dateFilter=function(b){var c=a.extend({cutoff:new Date,buffer:-1,emptyText:"Sorry, no results."},b);c.cutoff.setDate(c.cutoff.getDate()+c.buffer);var d=this.parent();return this.each(function(){new Date(a(this).data("date-filter")).getTime()<c.cutoff.getTime()&&this.remove()}),0==d.prop("childElementCount")&&d.html("<p>"+c.emptyText+"</p>"),this}}(jQuery);
