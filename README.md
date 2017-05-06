@@ -6,19 +6,17 @@ jQuery Date Filter is a tiny library that does one thing; filter content by curr
 
 Add a "data-date-filter" attribute to any element with the value set as a date:
 
-{% highlight html %}
-  {% raw %}
-    <li data-date-filter="{{post.date}}">
-  {% endraw %}
-{% endhighlight %}
+```
+  <li data-date-filter="{{post.date}}">
+```
 
 The date format expected is a datetime which Jekyll will output by default.
 
 Then call the library like so:
 
-{% highlight js %}
+```
   $('li').dateFilter();
-{% endhighlight %}
+```
 
 If an item's date is in the past then this item will be removed from the DOM. By default a buffer of 1 day is removed from the cutoff date, so an event starting at 0:00 today wont be removed until 0:00 tomorrow.
 
