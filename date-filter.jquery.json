@@ -1,0 +1,33 @@
+{
+    "name": "date-filter",
+    "title": "jQuery Date Filter",
+    "description": "Filter content by current date.",
+    "keywords": [
+        "date",
+        "filter"
+    ],
+    "version": "1.0",
+    "author": {
+        "name": "Maedi Prichard",
+        "url": "http://maedi.com/"
+    },
+    "maintainers": [
+        {
+          "name": "Maedi Prichard",
+          "url": "http://maedi.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/maedi/jQuery-Date-Filter/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/maedi/jQuery-Date-Filter/issues",
+    "homepage": "http://maedi.com/code/date-filter",
+    "docs": "http://maedi.com/code/date-filter",
+    "download": "http://maedi.com/code/date-filter",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
